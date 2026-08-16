@@ -1,2 +1,2 @@
-# gerda--lietuva
-GGerda Lietuva - Oficialus GERDA atstovas
+# gerda-lietuva
+Gerda Lietuva - Oficialus GERDA atstovas
