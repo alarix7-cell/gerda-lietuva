@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="lt">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0b0b0b">
+<title>MB Beloka Bygg | Durys, GERDA, vidaus durys ir statybiniai sprendimai</title>
+<meta name="description" content="MB Beloka Bygg — durys, GERDA saugumo durys, vidaus durys, projektiniai sprendimai ir profesionalus klientų aptarnavimas Lietuvoje."><meta name="robots" content="index,follow"><meta name="author" content="MB Beloka Bygg — durys ir statybiniai sprendimai Lietuvoje">
+<meta property="og:title" content="MB Beloka Bygg | Durys ir statybiniai sprendimai">
+<meta property="og:description" content="GERDA, vidaus durys ir kiti durų sprendimai. Profesionalus konsultavimas, specifikacijos ir projektų aptarnavimas.">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#0a0a0a;--panel:#111;--panel2:#151515;--text:#f3f0ea;--muted:#a6a39c;--gold:#c8a878;--line:#292929;--white:#fff;--danger:#e78d8d;--ok:#9bd1a8;--max:1240px}
+*{box-sizing:border-box}html{scroll-behavior:auto}body{margin:0;background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;line-height:1.5}body.modal-open{overflow:hidden}a{color:inherit;text-decoration:none}button,input,select,textarea{font:inherit}button{cursor:pointer}img{max-width:100%;display:block}.wrap{width:min(var(--max),calc(100% - 40px));margin:auto}.kicker{font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--gold);font-weight:700}h1,h2,h3{font-family:'Playfair Display',serif;font-weight:500;line-height:1.05;margin:0}h1{font-size:clamp(48px,7vw,92px);max-width:850px}h2{font-size:clamp(36px,5vw,60px)}h3{font-size:28px}p{color:var(--muted)}.gold,.outline{border:1px solid var(--gold);padding:13px 18px;border-radius:3px;font-weight:700}.gold{background:var(--gold);color:#111}.outline{background:transparent;color:var(--text);border-color:#555}.outline:hover{border-color:var(--gold);color:var(--gold)}.section{padding:100px 0;border-top:1px solid #171717}.head{display:flex;justify-content:space-between;gap:50px;align-items:end;margin-bottom:45px}.head>p{max-width:560px;margin:0}header{position:sticky;top:0;z-index:40;background:rgba(10,10,10,.88);backdrop-filter:blur(18px);border-bottom:1px solid #1b1b1b}.nav{height:76px;display:flex;align-items:center;justify-content:space-between;gap:25px}.brand{font-family:'Playfair Display';font-size:25px;letter-spacing:.12em}.brand small{display:block;font:700 8px 'DM Sans';letter-spacing:.25em;color:var(--gold);margin-top:-3px}nav{display:flex;gap:25px;font-size:13px;color:#ccc}nav a:hover{color:var(--gold)}.nav-actions{display:flex;gap:9px}.hero{min-height:760px;display:flex;align-items:end;position:relative;overflow:hidden;background:radial-gradient(circle at 70% 25%,#2b2419 0,#111 28%,#0a0a0a 65%)}.hero:after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,#0a0a0a 0%,rgba(10,10,10,.8) 40%,rgba(10,10,10,.18) 100%);pointer-events:none}.hero-content{position:relative;z-index:2;padding:110px 0 90px}.hero p{font-size:18px;max-width:620px;margin:25px 0 30px}.hero-buttons{display:flex;gap:12px;flex-wrap:wrap}.hero-stats{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--line);margin-top:80px;border:1px solid var(--line)}.hero-stats div{background:#0d0d0d;padding:20px}.hero-stats b{display:block;font:500 30px 'Playfair Display'}.hero-stats span{font-size:11px;color:var(--muted)}.ai-grid,.visual-grid,.project-grid,.config-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:24px}.panel{background:var(--panel);border:1px solid var(--line);padding:30px;border-radius:8px}.ai-progress{height:3px;background:#252525;margin:20px 0 30px}.ai-progress i{display:block;height:100%;background:var(--gold);width:20%;transition:none}.ai-options,.choice-grid,.option-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}.ai-option,.choice,.option-card{background:#151515;border:1px solid #303030;color:var(--text);padding:18px;text-align:left;border-radius:5px}.ai-option:hover,.choice:hover,.option-card:hover,.selected{border-color:var(--gold);background:#1a1814}.ai-option b,.choice b,.option-card b{display:block}.ai-option small,.choice small,.option-card small{display:block;color:var(--muted);margin-top:4px}.ai-controls,.wizard-controls{display:flex;justify-content:space-between;gap:10px;margin-top:25px}.ai-result{display:none;margin-top:20px;border:1px solid #4c412e;padding:20px;background:#17130d}.toolbar{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:22px}.search{flex:1;min-width:230px;background:#111;border:1px solid #333;color:#fff;padding:13px 15px;border-radius:4px}.filter{background:#111;color:#bbb;border:1px solid #333;padding:12px 15px;border-radius:4px}.filter.active{border-color:var(--gold);color:var(--gold)}.catalog-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.card{background:#111;border:1px solid #222;overflow:hidden;border-radius:7px}.card-img{height:280px;background:#181818;position:relative;overflow:hidden}.card-img img{width:100%;height:100%;object-fit:cover;transition:none}.badge{position:absolute;top:12px;left:12px;background:#0c0c0cdd;border:1px solid #555;padding:5px 8px;font-size:9px;letter-spacing:.12em;color:var(--gold)}.card-body{padding:20px}.card-body p{font-size:13px;margin:8px 0}.card-actions{display:flex;gap:8px;margin-top:17px}.card-actions button{flex:1;padding:10px;font-size:12px}.compare-select{position:absolute;right:12px;top:12px;border:1px solid #777;background:#0d0d0d;color:#ddd;border-radius:50%;width:32px;height:32px}.compare-select.selected{background:var(--gold);color:#111;border-color:var(--gold)}.compare-bar{display:none;position:sticky;bottom:70px;z-index:20;background:#18140f;border:1px solid #51432d;padding:12px 16px;margin-top:18px;align-items:center;justify-content:space-between}.compare-bar.show{display:flex}.config-shell{display:grid;grid-template-columns:1.3fr .7fr;gap:20px}.step-nav{display:grid;grid-template-columns:repeat(7,1fr);gap:5px;margin-bottom:20px}.step-dot{background:#111;border:1px solid #292929;color:#888;padding:11px 5px;font-size:10px}.step-dot span{display:block;margin-top:4px}.step-dot.active,.step-dot.done{border-color:var(--gold);color:var(--gold)}.wizard-step{display:none}.wizard-step.active{display:block}.dimension-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:15px}label{display:block;font-size:11px;color:#aaa;margin-bottom:7px}input,select,textarea{width:100%;background:#0d0d0d;border:1px solid #333;color:#eee;padding:13px;border-radius:4px;outline:none}input:focus,select:focus,textarea:focus{border-color:var(--gold)}.swatches{display:flex;flex-wrap:wrap;gap:10px}.sw{width:60px;height:60px;border:2px solid transparent;border-radius:50%;box-shadow:inset 0 0 0 1px #444}.sw.sel{border-color:var(--gold);transform:scale(1.05)}.summary{position:sticky;top:95px;height:max-content}.summary-line{display:flex;justify-content:space-between;gap:15px;padding:12px 0;border-bottom:1px solid #242424;font-size:12px}.summary-line b{color:#888;font-weight:500}.spec-box{margin-top:20px;padding:18px;background:#0d0d0d;border:1px solid #282828}.spec-box span{display:block;color:#aaa;font-size:11px;padding:7px 0;border-bottom:1px solid #222}.upload-zone{border:1px dashed #555;padding:35px;text-align:center;border-radius:6px;background:#0e0e0e}.upload-zone strong{display:block;color:#ddd}.preview{display:none;margin-top:15px;border:1px solid #333;max-height:330px;object-fit:cover;width:100%}.door-preview{height:390px;background:linear-gradient(135deg,#1a1a1a,#303030);display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden;border:1px solid #292929}.door{width:190px;height:330px;border:7px solid #171717;background:#555;box-shadow:0 30px 80px #000;display:flex;align-items:center;justify-content:flex-end;padding-right:18px}.handle{width:7px;height:65px;background:#111;border-radius:5px}.project-form{background:#111;border:1px solid #222;padding:30px;border-radius:7px}.project-type{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-bottom:20px}.project-upload{border:1px dashed #444;padding:18px;margin:18px 0;color:#bbb}.project-upload label{margin:0;cursor:pointer;color:#ddd}.project-upload span{display:block;color:var(--gold);font-size:12px;margin-top:8px}.contact{background:linear-gradient(135deg,#18140e,#111);border:1px solid #3e3324;padding:40px}.footer{padding:55px 0 100px;border-top:1px solid #1a1a1a}.footergrid{display:grid;grid-template-columns:2fr 1fr 1fr;gap:30px}.footer a,.footer span{display:block;color:#999;font-size:12px;margin-top:8px}.bottom-bar{position:fixed;left:0;right:0;bottom:0;z-index:50;background:#0c0c0cee;border-top:1px solid #333;padding:9px max(15px,env(safe-area-inset-left));display:flex;justify-content:center;gap:8px}.bottom-bar button{min-width:160px}.toast{position:fixed;right:20px;bottom:90px;z-index:100;background:#eee;color:#111;padding:12px 16px;border-radius:5px;display:none;max-width:360px;font-size:13px}.modal{position:fixed;inset:0;background:#000b;display:none;z-index:80;padding:25px;overflow:auto}.modal.open{display:flex;align-items:center;justify-content:center}.modal-box{width:min(900px,100%);background:#111;border:1px solid #333;padding:30px;position:relative;border-radius:8px}.modal-close{position:absolute;right:12px;top:10px;background:none;border:0;color:#aaa;font-size:30px}.modal-grid{display:grid;grid-template-columns:1fr 1fr;gap:30px;align-items:center}.modal-grid img{width:100%;height:420px;object-fit:cover;background:#1a1a1a}.modal-features{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin:20px 0}.modal-features div{padding:10px;border:1px solid #292929;color:#bbb;font-size:12px}.quote-item{padding:14px 0;border-bottom:1px solid #252525}.quote-item strong{display:block}.quote-item small{color:#999}.quote-actions{display:flex;gap:8px;margin-top:8px}.hidden{display:none!important}.notice{padding:20px;border:1px solid #333;color:#999}
+@media(max-width:900px){nav{display:none}.hero{min-height:700px}.hero-stats,.catalog-grid{grid-template-columns:repeat(2,1fr)}.ai-grid,.visual-grid,.project-grid,.config-shell{grid-template-columns:1fr}.summary{position:static}.project-type{grid-template-columns:repeat(2,1fr)}.footergrid{grid-template-columns:1fr 1fr}}
+@media(max-width:620px){.wrap{width:min(100% - 24px,var(--max))}.section{padding:70px 0}.head{display:block}.head>p{margin-top:15px}h1{font-size:48px}.hero-content{padding:80px 0 60px}.hero-stats,.catalog-grid,.ai-options,.choice-grid,.option-grid,.dimension-grid,.project-type,.footergrid{grid-template-columns:1fr}.step-nav{overflow:auto;grid-template-columns:repeat(7,95px)}.step-dot{position:relative}.card-img{height:240px}.modal-grid{grid-template-columns:1fr}.modal-grid img{height:280px}.bottom-bar button{min-width:0;flex:1;font-size:12px;padding:11px 8px}.panel,.project-form,.contact{padding:22px}}
+@media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;transition:none!important}}
+
+.three-d-wrap{display:grid;grid-template-columns:1fr 1fr;gap:24px;align-items:stretch}.three-d-stage{min-height:560px;background:radial-gradient(circle at 50% 30%,#24201a 0,#111 48%,#090909 100%);border:1px solid #2b2b2b;border-radius:8px;display:flex;align-items:center;justify-content:center;perspective:1200px;overflow:hidden}.door-3d{width:270px;height:470px;position:relative;transform:rotateY(-12deg) rotateX(2deg);transform-style:preserve-3d;background:#4b4b4b;border:9px solid #181818;box-shadow:28px 34px 50px rgba(0,0,0,.65),-10px 0 0 #252525}.door-3d:before{content:"";position:absolute;inset:22px;border:1px solid rgba(255,255,255,.15);background:linear-gradient(135deg,rgba(255,255,255,.08),transparent 42%)}.door-3d:after{content:"";position:absolute;top:50%;right:17px;width:9px;height:72px;border-radius:5px;background:#111;transform:translateY(-50%);box-shadow:2px 0 0 #777}.three-d-info{display:flex;flex-direction:column;justify-content:center}.three-d-info .panel{height:100%}.view-label{position:absolute;bottom:18px;left:20px;color:#999;font-size:10px;letter-spacing:.16em}.three-d-controls{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:18px}.mini-stat{border:1px solid #292929;background:#0d0d0d;padding:14px}.mini-stat b{display:block;font-size:18px;color:#eee}.mini-stat span{font-size:10px;color:#888}@media(max-width:900px){.three-d-wrap{grid-template-columns:1fr}.three-d-stage{min-height:470px}.door-3d{width:220px;height:380px}}
+
+.doc-actions{display:flex;gap:10px;flex-wrap:wrap;margin:22px 0}.btnlink{display:inline-flex;align-items:center;justify-content:center;text-decoration:none;cursor:pointer;padding:13px 18px;border-radius:10px;font-weight:700}.doc-toolbar{display:grid;grid-template-columns:1fr 240px;gap:10px;margin:18px 0}.doc-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.doc-card{background:var(--panel);border:1px solid #262626;border-radius:14px;padding:16px;display:flex;justify-content:space-between;gap:14px;align-items:flex-start}.doc-card h4{margin:0 0 7px;font-size:15px}.doc-card p{margin:0;color:#8f8f8f;font-size:12px;line-height:1.5}.doc-card a{flex:none;text-decoration:none;color:#d7b56d;font-weight:700;font-size:12px;border:1px solid #3b3327;padding:9px 10px;border-radius:8px}.doc-note{margin-top:18px;border:1px solid #252525;background:#0f0f0f;border-radius:12px;padding:16px;color:#8e8e8e;font-size:12px;line-height:1.6}.doc-empty{grid-column:1/-1;padding:30px;text-align:center;border:1px dashed #333;border-radius:12px;color:#888}
+@media(max-width:760px){.doc-toolbar{grid-template-columns:1fr}.doc-grid{grid-template-columns:1fr}.doc-card{flex-direction:column}.doc-card a{width:100%;text-align:center}}
+
+.three-d-scene{width:100%;height:100%;min-height:500px;display:flex;align-items:center;justify-content:center;perspective:1400px;position:relative}.door-3d{width:285px;height:480px;position:relative;transform:rotateY(-12deg) rotateX(1deg);transform-style:preserve-3d;background:transparent;border:0;box-shadow:none;transition:none}.door-face{position:absolute;inset:0;border:9px solid #171717;background:#4b4b4b;box-shadow:26px 32px 55px rgba(0,0,0,.55);overflow:hidden}.door-face:before{content:"";position:absolute;inset:18px;border:1px solid rgba(255,255,255,.13);background:linear-gradient(135deg,rgba(255,255,255,.08),transparent 45%);pointer-events:none}.door-edge{position:absolute;right:-22px;top:8px;width:22px;height:464px;background:#272727;transform:skewY(-9deg);transform-origin:left top}.door-shadow{position:absolute;left:22px;right:-28px;bottom:-30px;height:35px;background:rgba(0,0,0,.45);filter:blur(12px);transform:rotateX(70deg)}.door-glass{position:absolute;left:34px;right:34px;top:52px;height:135px;border:1px solid rgba(255,255,255,.22);background:transparent}.door-glass.clear{background:linear-gradient(135deg,rgba(180,210,220,.28),rgba(30,40,45,.15))}.door-glass.dark{background:linear-gradient(135deg,rgba(20,25,30,.72),rgba(0,0,0,.5))}.door-glass.opaque{background:linear-gradient(135deg,rgba(210,210,200,.32),rgba(130,130,120,.2))}.door-panel-line{position:absolute;background:rgba(0,0,0,.18)}.line-a{left:34px;right:34px;top:245px;height:1px}.line-b{left:34px;right:34px;bottom:55px;height:1px}.door-handle-3d{position:absolute;right:28px;top:50%;width:8px;height:76px;background:#111;border-radius:5px;transform:translateY(-50%);box-shadow:2px 0 0 #777}.door-handle-3d.long{height:150px}.door-handle-3d.minimal{height:46px}.three-d-view-controls{position:absolute;left:20px;top:20px;display:flex;gap:7px}.three-d-view-controls button{padding:8px 11px;font-size:11px;background:#0d0d0ddd}.three-d-view-controls .active{border-color:var(--gold);color:var(--gold)}.door-3d.view-front{transform:rotateY(0deg) rotateX(0deg)}.door-3d.view-angle{transform:rotateY(-12deg) rotateX(1deg)}.door-3d.view-side{transform:rotateY(-58deg) rotateX(1deg)}.doc-source{display:flex;justify-content:space-between;align-items:center;gap:15px;padding:12px 14px;margin:4px 0 18px;border:1px solid #262626;background:#0d0d0d;border-radius:9px;font-size:11px;color:#858585}.doc-source a{color:var(--gold);font-weight:700}@media(max-width:620px){.three-d-scene{min-height:430px}.door-3d{width:220px;height:380px}.door-edge{height:365px}.three-d-view-controls{top:12px;left:12px}.doc-source{display:block}.doc-source a{display:block;margin-top:6px}}
+<style>
+.three-d-stage{cursor:grab;touch-action:none}
+.three-d-stage.dragging{cursor:grabbing}
+.door-3d.manual{transform:rotateY(var(--ry, -12deg)) rotateX(var(--rx, 1deg))}
+.language-active{border-color:var(--gold)!important;color:var(--gold)!important}
+.finder-list{display:grid;gap:10px}.finder-result-card{padding:16px;border:1px solid #292929;background:#0d0d0d}.finder-result-card b{display:block;font-size:18px}.finder-result-card span{color:#999;font-size:12px}
+</style>
+.footer-company{margin-top:24px;padding:14px 0;border-top:1px solid #252525;color:#8d8d8d;font-size:11px;letter-spacing:.02em}.footer-company b{color:#d8d8d8}\n</style>\n
+
+
+<style>
+/* FINAL UX RULE: static premium interface — no decorative animation */
+*, *::before, *::after {
+
+
+  scroll-behavior: auto !important;
+}
+</style>
+<meta charset="utf-8"><title>GERDA durų specifikacija</title>
+<meta charset="utf-8"><title>GERDA durų specifikacija</title><style>body{font-family:Arial;color:#111;padding:40px}h1{font-family:Georgia;font-weight:400}.gold{color:#9b7843}table{width:100%;border-collapse:collapse;margin-top:25px}th,td{border:1px solid #ddd;padding:10px;text-align:left;vertical-align:top;font-size:12px}.meta{margin:20px 0;color:#555}@media print{body{padding:20px}}</style>
+<style>
+.product-hub-grid{display:grid;grid-template-columns:1.2fr 1fr 1fr;gap:16px}
+.product-hub-card{display:block;background:#111;border:1px solid #292929;border-radius:8px;padding:30px;min-height:250px}
+.product-hub-card:hover{border-color:#555}
+.product-hub-card.featured{background:linear-gradient(145deg,#18140e,#111);border-color:#4a3d2b}
+.product-hub-kicker,.interior-label{font-size:10px;letter-spacing:.15em;color:var(--gold);font-weight:700;margin-bottom:18px}
+.product-hub-card h3{margin-bottom:10px}
+.product-hub-card p{font-size:13px}
+.product-hub-card span{display:inline-block;margin-top:18px;color:var(--gold);font-size:12px;font-weight:700}
+.brand-banner{display:flex;justify-content:space-between;align-items:center;gap:35px;background:linear-gradient(135deg,#18140e,#111);border:1px solid #3e3324;padding:38px}
+.brand-banner p{max-width:760px}
+.interior-grid{display:grid;grid-template-columns:1.25fr .75fr;gap:20px}
+.interior-main{background:linear-gradient(145deg,#141414,#101010)}
+.interior-features{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin:24px 0}
+.interior-features div{border:1px solid #292929;background:#0d0d0d;padding:14px}
+.interior-features b{display:block;color:var(--gold);font-size:18px}
+.interior-features span{display:block;color:#999;font-size:11px;margin-top:6px}
+.selection-list{margin-top:15px}
+.selection-list div{padding:16px 0;border-bottom:1px solid #262626}
+.selection-list strong{display:block;color:#ddd;font-size:13px}
+.selection-list span{display:block;color:#888;font-size:11px;margin-top:5px}
+@media(max-width:900px){.product-hub-grid,.interior-grid{grid-template-columns:1fr}.interior-features{grid-template-columns:repeat(2,1fr)}.brand-banner{display:block}.brand-banner .btnlink{margin-top:20px}}
+@media(max-width:620px){.product-hub-grid{grid-template-columns:1fr}.interior-features{grid-template-columns:1fr}.brand-banner{padding:25px}}
+</style>
+</head>
+<body>
+<header><div class="wrap nav">
+<a class="brand" href="#top">BELOKA BYGG<small>DOORS · CONSTRUCTION · SOLUTIONS</small></a>
+<nav>
+<a href="#produktai">Produktai</a>
+<a href="#gerda">GERDA</a>
+<a href="#vidaus-durys">Vidaus durys</a>
+<a href="#katalogas">Katalogas</a>
+<a href="#vizualizacija">3D</a>
+<a href="#konfig">Konfigūratorius</a>
+<a href="#projektai">B2B / NT</a>
+<a href="#dokumentai">Dokumentai</a>
+</nav>
+<div class="nav-actions">
+<button class="outline" onclick="setLanguage('lt')">LT</button>
+<button class="outline" onclick="setLanguage('en')">EN</button>
+<button class="outline" onclick="openQuote()">Užklausa <span id="count">0</span></button>
+<button class="gold" onclick="go('kontaktai')">Gauti pasiūlymą</button>
+</div></div></header>
+<main id="top">
+<section class="hero" id="durys"><div class="wrap hero-content">
+<div class="kicker">MB BELOKA BYGG · DURYS · STATYBINIAI SPRENDIMAI · LIETUVA</div>
+<h1>Durys ir sprendimai, parinkti jūsų projektui.</h1>
+<p>Pasirinkite GERDA modelį, vizualizuokite komplektaciją, palyginkite techninius parametrus ir pateikite užklausą — nuo vienų durų iki viso NT projekto.</p>
+<div class="hero-buttons">
+<button class="gold" onclick="go('doorfinder')">Rasti tinkamas duris →</button>
+<button class="outline" onclick="go('konfig')">Konfigūruoti duris</button>
+<button class="outline" onclick="go('projektai')">NT projektų užklausa</button>
+</div>
+<div class="hero-stats">
+<div><b>199</b><span>GERDA durų dizainai*</span></div>
+<div><b>8 887</b><span>konfigūracijos*</span></div>
+<div><b>RC2–RC4</b><span>saugumo sprendimai</span></div>
+<div><b>LT · EN</b><span>paruošta regioninei plėtrai</span></div>
+</div>
+<small style="display:block;margin-top:14px;color:#777">*Gamintojo viešai nurodomi skaičiai; konkrečių modelių ir komplektacijų prieinamumą patvirtina GERDA specialistai.</small>
+</div></section>
+
+<section class="section" id="produktai">
+<div class="wrap">
+  <div class="head">
+    <div><div class="kicker">01 · PRODUKTŲ KATEGORIJOS</div><h2>Vienas kontaktas. Keli durų sprendimai.</h2></div>
+    <p>MB Beloka Bygg svetainė sukurta kaip bendras durų ir statybinių sprendimų katalogas. GERDA yra viena iš pagrindinių produktų linijų, o vidaus durų kategorija gali būti plečiama kitais patikrintais gamintojais.</p>
+  </div>
+  <div class="product-hub-grid">
+    <a class="product-hub-card featured" href="#gerda">
+      <div class="product-hub-kicker">PAGRINDINĖ PRODUKTŲ LINIJA</div>
+      <h3>GERDA</h3>
+      <p>Saugumo, įėjimo ir techninės durys. Modeliai, komplektacija, 3D peržiūra, konfigūratorius ir techninių dokumentų centras.</p>
+      <span>Peržiūrėti GERDA →</span>
+    </a>
+    <a class="product-hub-card" href="#vidaus-durys">
+      <div class="product-hub-kicker">NAUJA KATEGORIJA</div>
+      <h3>Vidaus durys</h3>
+      <p>Vidaus durys namams, butams ir projektams. Kategorija paruošta skirtingų gamintojų ir kolekcijų integracijai.</p>
+      <span>Peržiūrėti vidaus duris →</span>
+    </a>
+    <a class="product-hub-card" href="#projektai">
+      <div class="product-hub-kicker">B2B / PROJEKTAI</div>
+      <h3>Projektiniai sprendimai</h3>
+      <p>Durų kiekiai, specifikacijos, dokumentacija, matavimai ir montavimo koordinavimas vystytojams bei rangovams.</p>
+      <span>Projektų centras →</span>
+    </a>
+  </div>
+</div>
+</section>
+
+<section class="section" id="gerda">
+<div class="wrap">
+  <div class="brand-banner">
+    <div>
+      <div class="kicker">GERDA · DURŲ PREKĖS ŽENKLAS</div>
+      <h2>GERDA durys Lietuvoje.</h2>
+      <p>GERDA produktų liniją MB Beloka Bygg pristato kaip vieną iš pagrindinių savo durų sprendimų. Šioje svetainėje pateikiamas katalogas, interaktyvus 3D vizualizatorius, konfigūratorius, projektų aptarnavimas ir oficialių GERDA dokumentų centras.</p>
+    </div>
+    <a class="gold btnlink" href="#katalogas">GERDA katalogas →</a>
+  </div>
+</div>
+</section>
+
+<section class="section" id="vidaus-durys">
+<div class="wrap">
+  <div class="head">
+    <div><div class="kicker">02 · VIDAUS DURYS</div><h2>Vidaus durys.</h2></div>
+    <p>Kita pagrindinė MB Beloka Bygg produktų kategorija. Čia bus talpinamos pasirinkto gamintojo kolekcijos, modeliai, spalvos, staktos, furnitūra, techniniai duomenys ir kainos / pasiūlymai.</p>
+  </div>
+  <div class="interior-grid">
+    <div class="panel interior-main">
+      <div class="interior-label">KATEGORIJA RUOŠIAMA PILNAM PALEIDIMUI</div>
+      <h3>Vidaus durų kolekcijos</h3>
+      <p>Struktūra paruošta profesionaliam tiekėjo katalogo integravimui. Gamintojo pavadinimas, modeliai ir techninės specifikacijos bus įkelti tik patvirtinus tiekėją — šiame etape sąmoningai nenaudojami išgalvoti produktų duomenys.</p>
+      <div class="interior-features">
+        <div><b>01</b><span>Modelių katalogas</span></div>
+        <div><b>02</b><span>Spalvos ir apdaila</span></div>
+        <div><b>03</b><span>Staktos ir furnitūra</span></div>
+        <div><b>04</b><span>B2B projektų specifikacija</span></div>
+      </div>
+      <button class="gold" onclick="go('kontaktai'); document.getElementById('msg').value='Domina vidaus durys. Prašau pateikti kolekcijas, kainas ir terminus.';">Gauti vidaus durų pasiūlymą →</button>
+    </div>
+    <div class="panel">
+      <div class="kicker">PARINKIMO KRITERIJAI</div>
+      <div class="selection-list">
+        <div><strong>Stilius</strong><span>Modernus · klasikinis · minimalistinis · loft</span></div>
+        <div><strong>Konstrukcija</strong><span>Varstomos · stumdomos · dvivėrės · paslėpta stakta</span></div>
+        <div><strong>Apdaila</strong><span>Laminatas · dažytas paviršius · faneruotė · stiklas</span></div>
+        <div><strong>Projektai</strong><span>Individualūs namai · butai · vystytojų projektai</span></div>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+
+<section class="section" id="doorfinder"><div class="wrap"><div class="head">
+<div><div class="kicker">01 · DOOR FINDER</div><h2>5 klausimai iki tinkamos durų krypties.</h2></div>
+<p>Greitas produkto parinkimas pagal paskirtį, saugumą, šilumos izoliaciją, dizainą ir montavimą. Rezultatas yra pradinis profesionalus pasirinkimas, o ne automatinė techninė specifikacija.</p></div>
+<div class="ai-grid"><div class="panel">
+<div class="ai-progress"><i id="finderBar" style="width:20%"></i></div>
+<div id="finderQuiz"></div>
+<div class="ai-controls"><button class="outline" onclick="finderMove(-1)">← Atgal</button><button class="gold" id="finderNext" onclick="finderMove(1)">Toliau →</button></div>
+</div><div class="panel"><div class="kicker">REZULTATAS</div><div id="finderResult" class="ai-result"></div>
+<div id="finderEmpty"><h3>Jūsų durų kryptis</h3><p>Atsakykite į penkis klausimus. Sistema pateiks iki trijų tinkamiausių GERDA modelių.</p></div></div></div></div></section><section class="section" id="ai"><div class="wrap"><div class="head"><div><div class="kicker">03 · AI DOOR EXPERT</div><h2>Nežinote, nuo kurio modelio pradėti?</h2></div><p>Trumpas klausimynas susiaurina pasirinkimą pagal paskirtį, prioritetą, stilių, stiklą ir montavimą. Jei prijungsite AI API, šis modulis gali naudoti tikrą modelių duomenų bazę ir generuoti individualų paaiškinimą.</p></div><div class="ai-grid"><div class="panel"><div class="ai-progress"><i id="aiBar"></i></div><div id="aiQuiz"></div><div class="ai-controls"><button class="outline" id="aiBack" onclick="aiMove(-1)">← Atgal</button><button class="gold" id="aiNext" onclick="aiMove(1)">Toliau →</button></div></div><div class="panel"><div class="kicker">Jūsų rekomendacija</div><div id="aiResult" class="ai-result"></div><div id="aiEmpty"><h3>Personalizuotas pasirinkimas</h3><p>Pasirinkite atsakymus kairėje. Sistema parodys rekomenduojamą modelį ir leis iš karto pereiti į jo komplektaciją.</p></div></div></div></div></section>
+<section class="section" id="vizualizacija"><div class="wrap"><div class="head"><div><div class="kicker">04 · 3D DURŲ VIZUALIZATORIUS</div><h2>Interaktyvus 3D vaizdas. Be animacijos.</h2></div><p>Pasirinkite modelį ir apdailą. 3D peržiūra realiu laiku keičia durų išvaizdą pagal jūsų pasirinkimus. Tai vizualinis prototipas, o ne gamintojo CAD ar fotorealistinė AR vizualizacija.</p></div><div class="three-d-wrap"><div class="three-d-stage" id="threeDStage">
+<div class="three-d-scene">
+  <div class="door-3d" id="door3d">
+    <div class="door-face">
+      <div class="door-glass" id="doorGlass"></div>
+      <div class="door-panel-line line-a"></div><div class="door-panel-line line-b"></div>
+      <div class="door-handle-3d" id="doorHandle"></div>
+    </div>
+    <div class="door-edge"></div>
+    <div class="door-shadow"></div>
+  </div>
+</div>
+<div class="view-label">INTERAKTYVI 3D PERŽIŪRA · BE AUTOMATINĖS ANIMACIJOS</div>
+<div class="three-d-view-controls" aria-label="3D peržiūros kampas">
+  <button class="outline active" onclick="set3DView('front',this)">Priekis</button>
+  <button class="outline" onclick="set3DView('angle',this)">3/4</button>
+  <button class="outline" onclick="set3DView('side',this)">Šonas</button>
+</div>
+</div><div class="three-d-info"><div class="panel"><div class="kicker">KONFIGŪRACIJA</div><h3 id="threeDTitle" style="margin-top:8px">ALTUS</h3><p id="threeDDesc">Pasirinkite modelį ir spalvą. Peržiūra atnaujinama be animacijos.</p><div class="dimension-grid">
+<div><label>Modelis</label><select id="visualModel"></select></div>
+<div><label>Spalva / apdaila</label><select id="visualColor"></select></div>
+<div><label>Stiklas</label><select id="visualGlass"><option value="none">Be stiklo</option><option value="clear">Skaidrus</option><option value="dark">Tamsintas</option><option value="opaque">Matinis</option></select></div>
+<div><label>Rankena</label><select id="visualHandle"><option value="standard">Standartinė</option><option value="long">Ilga</option><option value="minimal">Minimalistinė</option></select></div>
+</div><div class="mini-stat" style="margin-top:18px"><b id="threeDColor">Antracitas · RAL 7016</b><span>Aktyvi apdaila</span></div><button class="gold" style="margin-top:18px;width:100%" onclick="configureVisualSelection()">Naudoti šią komplektaciją →</button></div></div></div></div></section>
+<section class="section" id="katalogas"><div class="wrap"><div class="head"><div><div class="kicker">05 · GERDA KATALOGAS</div><h2>Pasirinkite pagal poreikį.</h2></div><p>Peržiūrėkite modelius, palyginkite iki trijų variantų ir iš karto perkelkite pasirinktą modelį į konfigūratorių.</p></div><div class="toolbar"><input class="search" id="catalogSearch" placeholder="Ieškoti modelio..." oninput="renderCatalog()"><button class="filter active" data-f="all" onclick="setFilter('all',this)">Visos</button><button class="filter" data-f="premium" onclick="setFilter('premium',this)">Premium</button><button class="filter" data-f="house" onclick="setFilter('house',this)">Namui</button><button class="filter" data-f="apartment" onclick="setFilter('apartment',this)">Butui</button></div><div class="catalog-grid" id="catalogGrid"></div><div class="compare-bar" id="compareBar"><span><b id="compareCount">0</b>/3 modeliai pasirinkti palyginimui</span><div><button class="outline" onclick="clearCompare()">Išvalyti</button> <button class="gold" onclick="openCompare()">Palyginti</button></div></div></div></section>
+<section class="section" id="security"><div class="wrap"><div class="head">
+<div><div class="kicker">SECURITY · THERMAL · ACOUSTIC</div><h2>Techniniai parametrai, kuriuos verta palyginti.</h2></div>
+<p>Ne vien dizainas. Durų pasirinkimą verta grįsti saugumo klase, šilumos izoliacija, garso izoliacija, konstrukcija ir konkrečia komplektacija.</p></div>
+<div class="catalog-grid">
+<article class="panel"><div class="kicker">RC2</div><h3 style="margin-top:8px">Aukštesnė apsauga</h3><p>Praktinis pasirinkimas daugeliui gyvenamųjų objektų, kai svarbus subalansuotas saugumas ir komfortas.</p></article>
+<article class="panel"><div class="kicker">RC3</div><h3 style="margin-top:8px">Padidintas atsparumas</h3><p>Sprendimas objektams, kuriems keliami aukštesni įsilaužimo atsparumo reikalavimai.</p></article>
+<article class="panel"><div class="kicker">RC4</div><h3 style="margin-top:8px">Aukščiausias saugumo lygis</h3><p>Konkrečios serijos ir komplektacijos turi būti tikrinamos pagal gamintojo sertifikatus.</p></article>
+</div>
+<div class="panel" style="margin-top:18px"><div class="kicker">SMART ACCESS</div><h3 style="margin-top:8px">Išmanus patekimas į namus.</h3><p>GERDA sprendiniuose gali būti integruojamas išmanus durų valdymas ir virtualių raktų funkcionalumas. Konkrečią suderinamą komplektaciją patvirtina specialistas.</p></div>
+</div></section>
+
+<section class="section" id="projects-gallery"><div class="wrap"><div class="head">
+<div><div class="kicker">REAL PROJECTS</div><h2>Durys realiuose projektuose.</h2></div>
+<p>Galeriją rekomenduojama pildyti realiais Lietuvos objektais: modeliu, spalva, komplektacija ir techniniais parametrais. Kol nėra patvirtintų vietinių projektų, nenaudojame išgalvotų objektų ar rezultatų.</p></div>
+<div class="catalog-grid">
+<div class="panel"><div class="kicker">INDIVIDUALUS NAMAS</div><h3 style="margin-top:8px">Premium entrance</h3><p>Modelis ir komplektacija parenkami pagal fasadą, angą, saugumo ir šilumos izoliacijos reikalavimus.</p></div>
+<div class="panel"><div class="kicker">BUTAS</div><h3 style="margin-top:8px">Security entrance</h3><p>Prioritetas — saugumas, garso izoliacija, apdaila ir suderinamumas su esama anga.</p></div>
+<div class="panel"><div class="kicker">NT PROJEKTAS</div><h3 style="margin-top:8px">Project supply</h3><p>Vieninga specifikacija, kiekiai, techniniai dokumentai ir montavimo koordinavimas.</p></div>
+</div></div></section>
+
+<section class="section" id="architects"><div class="wrap"><div class="head">
+<div><div class="kicker">ARCHITECTS & DEVELOPERS</div><h2>Vienas techninis kanalas visam projektui.</h2></div>
+<p>Projektuotojams ir vystytojams paruoštas atskiras procesas: specifikacija, kiekiai, dokumentai, failai ir komercinė užklausa.</p></div>
+<div class="ai-grid">
+<div class="panel"><h3>Projektui paruošta</h3><div class="summary-line"><b>01</b><span>Durų modelių parinkimas</span></div><div class="summary-line"><b>02</b><span>Techninių parametrų palyginimas</span></div><div class="summary-line"><b>03</b><span>Sertifikatų ir deklaracijų centras</span></div><div class="summary-line"><b>04</b><span>Kiekių ir specifikacijos užklausa</span></div><div class="summary-line"><b>05</b><span>Pristatymo / montavimo planavimas</span></div></div>
+<div class="panel"><div class="kicker">PROJECT QUOTE</div><h3 style="margin-top:8px">Gauti projekto pasiūlymą</h3><p>Įkelkite techninę specifikaciją, brėžinius ar kiekių žiniaraštį NT projektų centre.</p><button class="gold" onclick="go('projektai')">Atidaryti NT projektų centrą →</button></div>
+</div></div></section>
+
+<section class="section" id="installation"><div class="wrap"><div class="head">
+<div><div class="kicker">PROFESSIONAL INSTALLATION</div><h2>Matavimas → gamyba → montavimas → patikra.</h2></div>
+<p>Montavimo poreikis įtraukiamas į užklausą. Techninis sprendimas ir konkreti montavimo procedūra turi būti tikrinami pagal pasirinktos GERDA sistemos oficialią instrukciją.</p></div>
+<div class="hero-stats">
+<div><b>01</b><span>Matavimo poreikis</span></div><div><b>02</b><span>Komplektacijos patvirtinimas</span></div><div><b>03</b><span>Pristatymo koordinavimas</span></div><div><b>04</b><span>Profesionalus montavimas</span></div>
+</div>
+<div class="doc-actions"><a class="gold btnlink" href="https://gerda.pl/en/serwis/do-pobrania/instrukcje-montazu/" target="_blank" rel="noopener">Oficialios montavimo instrukcijos →</a><button class="outline btnlink" onclick="go('kontaktai')">Užsakyti matavimą →</button></div>
+</div></section><section class="section" id="konfig"><div class="wrap"><div class="head"><div><div class="kicker">06 · GERDA KONFIGŪRATORIUS</div><h2>Susikonfigūruokite duris.</h2></div><p>Septyni žingsniai. Galutinė komplektacija išsaugoma jūsų užklausoje ir gali būti papildyta keliomis durimis.</p></div><div class="config-shell"><div class="panel"><div class="step-nav" id="stepNav"><button class="step-dot active" onclick="stepTo(1)">1<span>Modelis</span></button><button class="step-dot" onclick="stepTo(2)">2<span>Matmenys</span></button><button class="step-dot" onclick="stepTo(3)">3<span>Spalva</span></button><button class="step-dot" onclick="stepTo(4)">4<span>Stiklas</span></button><button class="step-dot" onclick="stepTo(5)">5<span>Rankena</span></button><button class="step-dot" onclick="stepTo(6)">6<span>Saugumas</span></button><button class="step-dot" onclick="stepTo(7)">7<span>Montavimas</span></button></div><div class="wizard-step active" data-step="1"><div class="kicker">1 / 7</div><h3>Pasirinkite modelį</h3><div class="option-grid" id="modelOptions"></div></div><div class="wizard-step" data-step="2"><div class="kicker">2 / 7</div><h3>Matmenys ir atsidarymas</h3><div class="dimension-grid"><div><label>Plotis, mm</label><input id="width" type="number" min="700" max="1800" placeholder="1000"></div><div><label>Aukštis, mm</label><input id="height" type="number" min="1800" max="2600" placeholder="2100"></div><div><label>Atsidarymas</label><select id="opening"><option>Į vidų</option><option>Į išorę</option></select></div><div><label>Pastabos</label><input id="dimNotes" placeholder="Nestandartinis angos matmuo..." ></div></div></div><div class="wizard-step" data-step="3"><div class="kicker">3 / 7</div><h3>Spalva</h3><div class="swatches" id="swatches"></div></div><div class="wizard-step" data-step="4"><div class="kicker">4 / 7</div><h3>Stiklas</h3><div class="choice-grid" id="glassChoices"></div></div><div class="wizard-step" data-step="5"><div class="kicker">5 / 7</div><h3>Rankena</h3><div class="choice-grid" id="handleChoices"></div></div><div class="wizard-step" data-step="6"><div class="kicker">6 / 7</div><h3>Saugumas</h3><div class="choice-grid" id="securityChoices"></div></div><div class="wizard-step" data-step="7"><div class="kicker">7 / 7</div><h3>Montavimas</h3><div class="choice-grid" id="installationChoices"></div></div><div class="wizard-controls"><button class="outline" id="prevBtn" onclick="stepMove(-1)">← Atgal</button><button class="gold" id="nextBtn" onclick="stepMove(1)">Toliau →</button></div></div><aside class="panel summary"><div class="kicker">Dabartinė komplektacija</div><h3 id="summaryModel" style="margin-top:8px">Dar nepasirinkta</h3><div id="summaryItems"></div><div class="spec-box" id="specPreview"><b>BELOKA BYGG · GERDA SPECIFIKACIJA</b><span>Užklausa dar tuščia.</span></div><button class="gold" style="width:100%;margin-top:15px" onclick="addConfiguredDoor()">+ Pridėti į užklausą</button><button class="outline" style="width:100%;margin-top:8px" onclick="downloadPDF()">Atsisiųsti PDF specifikaciją</button></aside></div></div></section>
+<section class="section" id="beloka"><div class="wrap"><div class="head">
+<div><div class="kicker">BELOKA BYGG</div><h2>GERDA durų atstovavimas Lietuvoje.</h2></div>
+<p>GERDA produktų pasirinkimą, užklausas ir projektų koordinavimą Lietuvoje organizuoja MB Beloka Bygg. Klientams suteikiame vieną kontaktinį kanalą nuo durų parinkimo iki techninės specifikacijos, užsakymo ir montavimo koordinavimo.</p></div>
+<div class="ai-grid">
+<div class="panel"><div class="kicker">ATSTOVAS</div><h3 style="margin-top:8px">MB Beloka Bygg</h3>
+<div class="summary-line"><b>LT</b><span>Veiklos rinka — Lietuva</span></div>
+<div class="summary-line"><b>Įk.</b><span>2023 m. vasario 15 d.</span></div>
+<div class="summary-line"><b>Kodas</b><span>306248219</span></div>
+<div class="summary-line"><b>Adresas</b><span>Taikos pr. 24-13, LT-91222 Klaipėda</span></div>
+</div>
+<div class="panel"><div class="kicker">KLIENTŲ APTARNAVIMAS</div><h3 style="margin-top:8px">Nuo pirmo klausimo iki durų.</h3>
+<p>Modelio parinkimas, komplektacijos konsultacija, techninių dokumentų pateikimas, projekto specifikacijos, komercinė užklausa, matavimo ir montavimo koordinavimas.</p>
+<button class="gold" onclick="go('kontaktai')">Pateikti užklausą →</button>
+</div></div>
+<div class="panel" style="margin-top:18px"><div class="kicker">TRANSPARENCY</div>
+<p style="margin:0;color:#aaa">Oficialūs įmonės rekvizitai ir vieši juridiniai duomenys turi sutapti su sąskaitose, sutartyse ir kituose oficialiuose dokumentuose naudojama informacija. Svetainėje nenaudojame nepatvirtintų teiginių apie išskirtinumą, garantijas ar sertifikatus.</p></div>
+</div></section><section class="section" id="dokumentai"><div class="wrap"><div class="head"><div><div class="kicker">07 · GERDA DOKUMENTŲ CENTRAS</div><h2>Sertifikatai, deklaracijos, katalogai ir montavimo dokumentai.</h2></div><p>Čia pateikiamas GERDA oficialaus dokumentų centro turinys ir patogi paieška. Dokumentai atidaromi iš oficialaus GERDA šaltinio, todėl klientas visada mato naujausią gamintojo versiją. Sertifikatų registre yra ir dabartiniai, ir archyviniai dokumentai.</p></div><div class="doc-actions"><a class="gold btnlink" href="https://gerda.pl/en/serwis/do-pobrania/atesty-i-certyfikaty/" target="_blank" rel="noopener">Visi oficialūs sertifikatai →</a><a class="outline btnlink" href="https://gerda.pl/en/serwis/do-pobrania/katalogi/" target="_blank" rel="noopener">Visi katalogai →</a><a class="outline btnlink" href="https://gerda.pl/en/serwis/do-pobrania/instrukcje-montazu/" target="_blank" rel="noopener">Montavimo instrukcijos →</a></div><div class="doc-source"><span>Šaltinis: GERDA oficialus dokumentų centras</span><a href="https://gerda.pl/en/serwis/do-pobrania/atesty-i-certyfikaty/" target="_blank" rel="noopener">Atidaryti gamintojo registrą →</a></div><div class="doc-toolbar"><input class="search" id="docSearch" placeholder="Ieškoti dokumento, serijos ar sertifikato numerio..." oninput="renderDocuments()"><select id="docCategory" onchange="renderDocuments()"><option value="all">Visos kategorijos</option><option value="doors">Durys</option><option value="cylinders">Cilindrai</option><option value="locks">Spynos</option><option value="padlocks">Pakabinamos spynos</option><option value="garage">Garažo vartai</option><option value="industrial">Pramoniniai vartai</option><option value="archive">Archyvas</option></select></div><div class="doc-grid" id="docGrid"></div><div class="doc-note"><b>Dokumentų tikslumas:</b> GERDA dokumentų puslapis yra gyvas gamintojo registras. Svetainėje sąmoningai nenaudojame lokaliai nukopijuotų PDF failų kaip vienintelio šaltinio, nes sertifikatų ir deklaracijų būsenos gali keistis. Šiuo metu oficialiame registre, be kita ko, pateikiami THERMO PREMIUM, OPTIMA 60, ALTUS, NEO, THERMO PRIME dokumentai, EPD aplinkosaugos deklaracijos, cilindrų, spynų, pakabinamų spynų, durų pritraukėjų, garažo ir pramoninių vartų dokumentai bei archyvas.</div></div></section>
+<section class="section" id="projektai"><div class="wrap"><div class="head"><div><div class="kicker">08 · NT PROJEKTŲ CENTRAS</div><h2>Durys visam projektui.</h2></div><p>Vystytojams, rangovams ir projektų valdytojams — struktūruota projekto užklausa, kiekiai, techninė specifikacija ir failai.</p></div><div class="project-form"><div class="project-type" id="projectTypes"><button class="choice selected" onclick="setProjectType('Daugiabutis',this)"><b>Daugiabutis</b><small>Butų projektas</small></button><button class="choice" onclick="setProjectType('Individualių namų kvartalas',this)"><b>Namų kvartalas</b><small>Individualūs / sublokuoti namai</small></button><button class="choice" onclick="setProjectType('Komercinis objektas',this)"><b>Komercinis</b><small>Viešbutis, biuras, kita</small></button><button class="choice" onclick="setProjectType('Kita',this)"><b>Kita</b><small>Individualus projektas</small></button></div><div class="dimension-grid"><div><label>Projekto pavadinimas</label><input id="projectName" placeholder="Pvz. Pajūrio kvartalas"></div><div><label>Durų kiekis</label><input id="projectQty" type="number" min="1" placeholder="24"></div><div><label>Projekto etapas</label><select id="projectStage"><option>Planavimo</option><option>Techninio projekto</option><option>Statybos</option><option>Pirkimo</option></select></div><div><label>Pageidaujamas terminas</label><input id="projectDeadline" placeholder="Pvz. 2027 Q1"></div><div style="grid-column:1/-1"><label>Techninė specifikacija / pastabos</label><textarea id="projectNotes" rows="4" placeholder="Modeliai, klasės, spalvos, kiekiai, montavimo poreikis..."></textarea></div></div><div class="project-upload"><label for="projectFile">+ Įkelti projekto specifikaciją (PDF / Excel / Word)</label><input id="projectFile" type="file" accept=".pdf,.xlsx,.xls,.doc,.docx" style="margin-top:10px"><span id="projectFileName"></span></div><button class="gold" onclick="submitProject()">Gauti individualų projekto pasiūlymą →</button></div></div></section>
+<section class="section" id="kontaktai"><div class="wrap"><div class="head"><div><div class="kicker">09 · UŽKLAUSA</div><h2>Vienas kontaktas visam projektui.</h2></div><p>Jūsų pasirinkimai ir kontaktai gali būti siunčiami į prijungtą API. Jei API dar nenustatytas, sistema paruošia el. laišką kaip patikimą statinio puslapio atsarginį kelią.</p></div><div class="contact"><div class="dimension-grid"><div><label>Vardas / įmonė *</label><input id="name" required placeholder="Vardas arba įmonė"></div><div><label>Telefonas *</label><input id="phone" required placeholder="+370 ..."></div><div><label>El. paštas *</label><input id="email" type="email" required placeholder="vardas@imone.lt"></div><div><label>Miestas</label><input id="city" placeholder="Klaipėda / Vilnius / ..."></div><div style="grid-column:1/-1"><label>Žinutė</label><textarea id="msg" rows="4" placeholder="Papildoma informacija apie projektą..."></textarea></div></div><div style="margin-top:14px"><label style="display:flex;gap:8px;align-items:flex-start;color:#888;font-size:11px"><input id="consent" type="checkbox" style="width:auto;margin-top:2px"> Sutinku, kad mano pateikti kontaktiniai duomenys būtų naudojami atsakymui į šią užklausą. Privatumo dokumentai turi būti pateikti prieš paleidžiant svetainę viešai.</label></div><div style="display:flex;justify-content:space-between;align-items:center;gap:15px;margin-top:20px;flex-wrap:wrap"><span style="font-size:12px;color:#888">Užklausoje: <b id="contactCount">0</b> durų</span><button class="gold" onclick="sendLead()">Siųsti užklausą →</button></div></div></div></section>
+</main>
+<footer class="footer"><div class="wrap footergrid">
+<div>
+  <div class="brand">BELOKA BYGG<small>DOORS · CONSTRUCTION · SOLUTIONS</small></div>
+  <p>MB Beloka Bygg — durų ir statybinių sprendimų prekyba bei projektų aptarnavimas Lietuvoje. GERDA yra viena iš pagrindinių produktų linijų; vidaus durų kategorija plečiama atskirai.</p>
+  <div class="footer-company"><b>MB Beloka Bygg</b><br>Įmonės kodas: 306248219<br>Taikos pr. 24-13, LT-91222 Klaipėda</div>
+</div>
+<div><b>Produktai</b><a href="#gerda">GERDA</a><a href="#vidaus-durys">Vidaus durys</a><a href="#katalogas">GERDA katalogas</a><a href="#vizualizacija">3D vizualizatorius</a><a href="#konfig">GERDA konfigūratorius</a><a href="#dokumentai">Dokumentų centras</a><a href="#projektai">B2B / NT projektai</a></div>
+<div><b>Gamintojas</b><a href="https://gerda.pl/" target="_blank" rel="noopener">GERDA oficialus puslapis →</a><a href="https://gerda.pl/en/serwis/do-pobrania/katalogi/" target="_blank" rel="noopener">Oficialūs katalogai →</a><a href="https://gerda.pl/en/serwis/do-pobrania/atesty-i-certyfikaty/" target="_blank" rel="noopener">Sertifikatai →</a></div>
+</div></footer>
+<div class="bottom-bar"><button class="gold" onclick="go('konfig')">Konfigūruoti</button><button class="outline" onclick="openQuote()">Mano užklausa <span id="count2">0</span></button></div>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+<div class="modal" id="productModal" aria-hidden="true"><div class="modal-box"><button class="modal-close" aria-label="Uždaryti" onclick="closeProduct()">×</button><div class="modal-grid"><img id="modalImg" alt=""><div><div class="kicker" id="modalCategory"></div><h2 id="modalTitle" style="margin-top:8px"></h2><p id="modalDesc"></p><div class="modal-features" id="modalFeatures"></div><div style="display:flex;gap:8px;flex-wrap:wrap"><button class="gold" onclick="configureModalProduct()">Konfigūruoti šias duris →</button><button class="outline" onclick="addModalToQuote()">+ Į užklausą</button></div></div></div></div></div>
+<div class="modal" id="quoteModal" aria-hidden="true"><div class="modal-box"><button class="modal-close" aria-label="Uždaryti" onclick="closeQuote()">×</button><div class="kicker">JŪSŲ PROJEKTAS</div><h2>Mano užklausa</h2><div id="quoteList" style="margin-top:20px"></div><div style="display:flex;gap:8px;margin-top:18px;flex-wrap:wrap"><button class="outline" onclick="downloadPDF()">PDF specifikacija</button><button class="gold" onclick="closeQuote();go('kontaktai')">Pateikti kontaktus →</button></div></div></div>
+<div class="modal" id="compareModal" aria-hidden="true"><div class="modal-box"><button class="modal-close" aria-label="Uždaryti" onclick="closeCompare()">×</button><div class="kicker">PALYGINIMAS</div><h2>Iki 3 modelių</h2><div id="compareContent" style="overflow:auto;margin-top:20px"></div></div></div>
+<script>
+const PRODUCTS=[{"name": "ALTUS", "subtitle": "Premium aliuminio durys", "cat": "house", "specs": "35 dizainų • individualus RAL", "img": "https://livingroom24.pl/assets/upload/gerda/altus/gerda_altus1.jpg"}, {"name": "THERMO PREMIUM 75", "subtitle": "Premium lauko durys", "cat": "house", "specs": "Aukšta šilumos izoliacija • RC2/RC3", "img": "https://www.artbud.pl/userdata/public/gfx/139042/drzwi-gerda-quadro-trewir-2-tyl.jpg"}, {"name": "THERMO PRIME", "subtitle": "Šiltos įėjimo durys", "cat": "house", "specs": "AIR GLASS • QUADRO • ELITE 3D • TEMPO", "img": "https://brama.md/wp-content/uploads/2024/12/Gerda-Thermo-Prime-7.jpg"}, {"name": "NEO", "subtitle": "Super Premium kolekcija", "cat": "neo", "specs": "GLASS • CROSS LINE • LINEA • INTEGRA • OPTIMAL", "img": "https://gerda.pl/wp-content/uploads/2025/01/neo-hero.jpg"}, {"name": "SELECT", "subtitle": "Moderni premium serija", "cat": "house", "specs": "TEMPO • minimalistiniai dekorai", "img": "https://gerda.pl/wp-content/uploads/2024/09/select-hero.jpg"}, {"name": "OPTIMA", "subtitle": "Namui – racionalus premium", "cat": "house", "specs": "TEMPO • CLASSIC • DUO 60", "img": "https://gerda.pl/wp-content/uploads/2024/04/optima-hero.jpg"}, {"name": "STAR 60", "subtitle": "Apsauginės durys butui", "cat": "apartment", "specs": "RC4 • iki 38 dB", "img": "https://gerda.pl/wp-content/uploads/2024/03/star-60.jpg"}, {"name": "PREMIUM 60", "subtitle": "Premium durys butui", "cat": "apartment", "specs": "RC2/RC3/RC4 • iki 39 dB", "img": "https://gerda.pl/wp-content/uploads/2024/03/premium-60.jpg"}, {"name": "COMFORT 60", "subtitle": "Komfortiškos durys butui", "cat": "apartment", "specs": "Iki RC3 • 30 dB", "img": "https://gerda.pl/wp-content/uploads/2024/03/comfort-60.jpg"}];
+const COLORS=[["Antracitas", "RAL 7016", "#383b3d"], ["Juoda", "RAL 9005", "#111111"], ["Balta", "RAL 9016", "#f2f2ef"], ["Pilka", "RAL 7035", "#aeb0ae"], ["Tamsiai pilka", "RAL 7024", "#4b4e50"], ["Smėlio", "RAL 1019", "#aaa08f"]];
+const API_BASE=window.GERDA_CONFIG?.apiBase||'';
+const glassOptions=['Be stiklo','Skaidrus stiklas','Matinis stiklas','Dekoratyvinis stiklas'];
+const handleOptions=['Standartinė','Juoda','Nerūdijančio plieno','Individuali'];
+const securityOptions=['Standartinė apsauga','RC2','RC3','RC4'];
+const installationOptions=['Reikalingas montavimas','Montuosime patys','Reikia matavimo'];
+let state={filter:'all',search:'',compare:[],modal:null,step:1,projectType:'Daugiabutis',quote:JSON.parse(localStorage.getItem('gerda_quote')||'[]'),config:{model:null,width:'',height:'',opening:'Į vidų',color:{name:'Antracitas',code:'RAL 7016'},glass:'Be stiklo',handle:'Standartinė',security:'Standartinė apsauga',installation:'Reikalingas montavimas'}};
+function esc(v){return String(v??'').replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[m]))}
+function go(id){document.getElementById(id)?.scrollIntoView({behavior:'auto',block:'start'})}
+function toast(t){const x=document.getElementById('toast');x.textContent=t;x.style.display='block';clearTimeout(window._toast);window._toast=setTimeout(()=>x.style.display='none',2800)}
+function category(p){if(p.cat==='apartment')return'apartment';if(p.name==='ALTUS'||p.name.includes('THERMO')||p.name==='NEO'||p.name==='SELECT')return'premium';return'house'}
+function renderCatalog(){const q=(document.getElementById('catalogSearch').value||'').toLowerCase().trim();state.search=q;const list=PRODUCTS.filter((p,i)=>(state.filter==='all'||category(p)===state.filter)&&(!q||p.name.toLowerCase().includes(q)||p.subtitle.toLowerCase().includes(q)));const grid=document.getElementById('catalogGrid');grid.innerHTML=list.length?list.map(p=>{const i=PRODUCTS.indexOf(p),cat=category(p);return `<article class="card"><div class="card-img"><img src="${esc(p.img)}" alt="${esc(p.name)}" loading="lazy" onerror="this.style.opacity='.18'"><span class="badge">${cat==='premium'?'PREMIUM':cat==='apartment'?'BUTUI':'NAMUI'}</span><button class="compare-select ${state.compare.includes(i)?'selected':''}" aria-label="Palyginti ${esc(p.name)}" onclick="toggleCompare(${i},event)">${state.compare.includes(i)?'✓':'+'}</button></div><div class="card-body"><h3>${esc(p.name)}</h3><p>${esc(p.subtitle)}<br><span style="color:#777">${esc(p.specs)}</span></p><div class="card-actions"><button class="outline" onclick="openProduct(${i})">Peržiūrėti</button><button class="gold" onclick="configureProduct(${i})">Konfigūruoti</button></div></div></article>`}).join(''):'<div class="notice" style="grid-column:1/-1">Modelių pagal jūsų paiešką nerasta.</div>';document.getElementById('compareCount').textContent=state.compare.length;document.getElementById('compareBar').classList.toggle('show',state.compare.length>0)}
+function setFilter(v,b){state.filter=v;document.querySelectorAll('.filter').forEach(x=>x.classList.remove('active'));b.classList.add('active');renderCatalog()}
+function toggleCompare(i,e){e.stopPropagation();if(state.compare.includes(i))state.compare=state.compare.filter(x=>x!==i);else if(state.compare.length<3)state.compare.push(i);else{toast('Galite palyginti iki 3 modelių.');return}renderCatalog()}
+function clearCompare(){state.compare=[];renderCatalog()}
+function openCompare(){if(state.compare.length<2){toast('Pasirinkite bent 2 modelius.');return}const ps=state.compare.map(i=>PRODUCTS[i]);document.getElementById('compareContent').innerHTML=`<table style="width:100%;border-collapse:collapse;font-size:12px"><tr><th style="text-align:left;padding:12px;border-bottom:1px solid #333">Parametras</th>${ps.map(p=>`<th style="text-align:left;padding:12px;border-bottom:1px solid #333">${esc(p.name)}</th>`).join('')}</tr><tr><td style="padding:12px;border-bottom:1px solid #222;color:#888">Aprašymas</td>${ps.map(p=>`<td style="padding:12px;border-bottom:1px solid #222">${esc(p.subtitle)}</td>`).join('')}</tr><tr><td style="padding:12px;border-bottom:1px solid #222;color:#888">Specifikacija</td>${ps.map(p=>`<td style="padding:12px;border-bottom:1px solid #222">${esc(p.specs)}</td>`).join('')}</tr><tr><td style="padding:12px;color:#888">Komplektacija</td>${ps.map(()=>'<td style="padding:12px">Individuali</td>').join('')}</tr></table>`;openModal('compareModal')}
+function closeCompare(){closeModal('compareModal')}
+function openProduct(i){const p=PRODUCTS[i];state.modal=i;document.getElementById('modalImg').src=p.img;document.getElementById('modalImg').alt=p.name;document.getElementById('modalTitle').textContent=p.name;document.getElementById('modalCategory').textContent=category(p)==='premium'?'PREMIUM':category(p)==='apartment'?'BUTUI':'NAMUI';document.getElementById('modalDesc').textContent=p.subtitle;document.getElementById('modalFeatures').innerHTML=['Individuali komplektacija','Spalvų pasirinkimas','Saugumo sprendimai',p.specs,'Montavimo pasirinkimas'].map(x=>`<div>${esc(x)}</div>`).join('');openModal('productModal')}
+function closeProduct(){closeModal('productModal')}
+function configureProduct(i){state.config.model=i;updateSummary();closeProduct();go('konfig');stepTo(2);toast(PRODUCTS[i].name+' pasirinktos.')}
+function configureModalProduct(){if(state.modal!==null)configureProduct(state.modal)}
+function addModalToQuote(){if(state.modal===null)return;const p=PRODUCTS[state.modal];state.quote.push({model:p.name,color:'Nepasirinkta',code:'',notes:'Pasirinkta iš katalogo; komplektacija tikslintina.'});saveQuote();closeProduct();toast(p.name+' pridėtos į užklausą.')}
+function openModal(id){document.getElementById(id).classList.add('open');document.getElementById(id).setAttribute('aria-hidden','false');document.body.classList.add('modal-open')}
+function closeModal(id){document.getElementById(id).classList.remove('open');document.getElementById(id).setAttribute('aria-hidden','true');if(!document.querySelector('.modal.open'))document.body.classList.remove('modal-open')}
+function openQuote(){renderQuote();openModal('quoteModal')}function closeQuote(){closeModal('quoteModal')}
+function renderQuote(){const box=document.getElementById('quoteList');document.getElementById('contactCount').textContent=state.quote.length;document.getElementById('count').textContent=state.quote.length;document.getElementById('count2').textContent=state.quote.length;box.innerHTML=state.quote.length?state.quote.map((q,i)=>`<div class="quote-item"><strong>${esc(q.model)}</strong><small>${esc(q.color)} ${q.code?'· '+esc(q.code):''}<br>${esc(q.notes||'')}</small><div class="quote-actions"><button class="outline" onclick="removeQuote(${i})">Pašalinti</button></div></div>`).join(''):'<p>Užklausa tuščia. Pridėkite modelį iš katalogo arba užbaikite konfigūraciją.</p>'}
+function removeQuote(i){state.quote.splice(i,1);saveQuote();renderQuote();updateSummary()}
+function saveQuote(){localStorage.setItem('gerda_quote',JSON.stringify(state.quote));renderQuote();refreshSpec()}
+function initWizard(){document.getElementById('modelOptions').innerHTML=PRODUCTS.map((p,i)=>`<button class="option-card ${state.config.model===i?'selected':''}" onclick="chooseModel(${i},this)"><img src="${esc(p.img)}" alt="${esc(p.name)}" loading="lazy" style="height:130px;width:100%;object-fit:cover;margin:-18px -18px 14px;width:calc(100% + 36px)" onerror="this.style.opacity='.2'"><b>${esc(p.name)}</b><small>${esc(p.subtitle)}</small></button>`).join('');document.getElementById('swatches').innerHTML=COLORS.map(c=>`<button class="sw" title="${esc(c[0])} · ${esc(c[1])}" style="background:${c[2]}" data-n="${esc(c[0])}" data-c="${esc(c[1])}" onclick="chooseColor(this)"></button>`).join('');makeChoices('glassChoices','glass',glassOptions);makeChoices('handleChoices','handle',handleOptions);makeChoices('securityChoices','security',securityOptions);makeChoices('installationChoices','installation',installationOptions);updateFormFromState();updateSummary()}
+function makeChoices(id,key,items){document.getElementById(id).innerHTML=items.map(x=>`<button class="choice ${state.config[key]===x?'selected':''}" onclick="choose('${key}','${esc(x)}',this)"><b>${esc(x)}</b><small>Pasirinkti</small></button>`).join('')}
+function chooseModel(i,el){document.querySelectorAll('.option-card').forEach(x=>x.classList.remove('selected'));el.classList.add('selected');state.config.model=i;updateSummary()}
+function choose(key,val,el){el.parentElement.querySelectorAll('.choice').forEach(x=>x.classList.remove('selected'));el.classList.add('selected');state.config[key]=val;updateSummary()}
+function chooseColor(el){document.querySelectorAll('.sw').forEach(x=>x.classList.remove('sel'));el.classList.add('sel');state.config.color={name:el.dataset.n,code:el.dataset.c};updateSummary()}
+function updateFormFromState(){document.getElementById('width').value=state.config.width;document.getElementById('height').value=state.config.height;document.getElementById('opening').value=state.config.opening;document.querySelectorAll('.sw').forEach(x=>x.classList.toggle('sel',x.dataset.c===state.config.color.code))}
+function updateSummary(){const c=state.config,p=c.model!==null?PRODUCTS[c.model]:null;document.getElementById('summaryModel').textContent=p?p.name:'Dar nepasirinkta';const items=[['Modelis',p?p.name:'—'],['Matmenys',c.width&&c.height?`${c.width} × ${c.height} mm`:'—'],['Spalva',`${c.color.name} · ${c.color.code}`],['Stiklas',c.glass],['Rankena',c.handle],['Saugumas',c.security],['Montavimas',c.installation]];document.getElementById('summaryItems').innerHTML=items.map(x=>`<div class="summary-line"><b>${x[0]}</b><span>${esc(x[1])}</span></div>`).join('');refreshSpec()}
+function refreshSpec(){const box=document.getElementById('specPreview');if(!state.quote.length){box.innerHTML='<b>BELOKA BYGG · GERDA SPECIFIKACIJA</b><span>Užklausa dar tuščia.</span>';return}box.innerHTML='<b>BELOKA BYGG · GERDA SPECIFIKACIJA</b>'+state.quote.map((q,i)=>`<span>${i+1}. ${esc(q.model)} · ${esc(q.color)} · ${esc(q.notes)}</span>`).join('')}
+function stepTo(n){if(n>1&&state.config.model===null){toast('Pirmiausia pasirinkite modelį.');return}state.step=Math.max(1,Math.min(7,n));document.querySelectorAll('.wizard-step').forEach(x=>x.classList.toggle('active',+x.dataset.step===state.step));document.querySelectorAll('.step-dot').forEach((x,i)=>{x.classList.toggle('active',i+1===state.step);x.classList.toggle('done',i+1<state.step)});document.getElementById('prevBtn').style.visibility=state.step===1?'hidden':'visible';document.getElementById('nextBtn').textContent=state.step===7?'Pridėti į užklausą →':'Toliau →'}
+function stepMove(d){if(state.step===2){state.config.width=document.getElementById('width').value;state.config.height=document.getElementById('height').value;state.config.opening=document.getElementById('opening').value}if(d>0&&state.step===7){addConfiguredDoor();return}stepTo(state.step+d)}
+function addConfiguredDoor(){if(state.config.model===null){toast('Pasirinkite durų modelį.');stepTo(1);return}if(!state.config.width||!state.config.height){toast('Įveskite durų matmenis.');stepTo(2);return}const c=state.config,p=PRODUCTS[c.model];state.quote.push({model:p.name,color:c.color.name,code:c.color.code,notes:`${c.width} × ${c.height} mm · ${c.opening} · Stiklas: ${c.glass} · Rankena: ${c.handle} · Saugumas: ${c.security} · Montavimas: ${c.installation}${document.getElementById('dimNotes').value?' · '+document.getElementById('dimNotes').value:''}`});saveQuote();toast(p.name+' komplektacija pridėta į užklausą.');go('kontaktai')}
+function aiInit(){renderAI()}const AI_Q=[['Kur reikalingos durys?',['Individualiam namui','Butui','NT projektui','Komerciniam objektui']],['Kas svarbiausia?',['Saugumas','Šilumos izoliacija','Dizainas','Kaina / vertė']],['Koks stilius?',['Modernus','Klasikinis','Minimalistinis','Dar nežinau']],['Ar reikalingas stiklas?',['Taip','Ne','Nežinau']],['Ar reikalingas montavimas?',['Taip','Ne','Konsultacija']]];let aiStep=0,aiAnswers=[];function renderAI(){const q=AI_Q[aiStep];document.getElementById('aiQuiz').innerHTML=`<div class="kicker">KLAUSIMAS ${aiStep+1} / ${AI_Q.length}</div><h3 style="margin:8px 0 20px">${q[0]}</h3><div class="ai-options">${q[1].map(x=>`<button class="ai-option ${aiAnswers[aiStep]===x?'selected':''}" onclick="aiPick('${esc(x)}')"><b>${esc(x)}</b><small>Pasirinkti</small></button>`).join('')}</div>`;document.getElementById('aiBar').style.width=((aiStep+1)/AI_Q.length*100)+'%';document.getElementById('aiBack').style.visibility=aiStep?'visible':'hidden';document.getElementById('aiNext').textContent=aiStep===AI_Q.length-1?'Gauti rekomendaciją →':'Toliau →'}function aiPick(v){aiAnswers[aiStep]=v;renderAI()}async function aiMove(d){if(d<0){aiStep=Math.max(0,aiStep-1);renderAI();return}if(!aiAnswers[aiStep]){toast('Pasirinkite atsakymą.');return}if(aiStep<AI_Q.length-1){aiStep++;renderAI();return}await getAIRecommendation()}
+async function getAIRecommendation(){const fallback=ruleRecommendation();let result=fallback;if(API_BASE){try{const r=await fetch(API_BASE.replace(/\/$/,'')+'/api/ai',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({answers:aiAnswers,products:PRODUCTS.map(p=>({name:p.name,subtitle:p.subtitle,specs:p.specs}))})});if(r.ok){const d=await r.json();if(d.model)result=d}}catch(e){console.warn(e)}}document.getElementById('aiEmpty').style.display='none';const p=PRODUCTS.find(x=>x.name===result.model)||PRODUCTS[0];document.getElementById('aiResult').style.display='block';document.getElementById('aiResult').innerHTML=`<div class="kicker">REKOMENDACIJA</div><h3 style="margin:8px 0">${esc(result.model||p.name)}</h3><p>${esc(result.reason||('Pagal pasirinktus prioritetus tai tinkamas pradinis variantas. Galutinę komplektaciją rekomenduojame patvirtinti su specialistu.'))}</p><button class="gold" onclick="configureProduct(${PRODUCTS.indexOf(p)})">Konfigūruoti ${esc(p.name)} →</button>`}
+function ruleRecommendation(){const place=aiAnswers[0],priority=aiAnswers[1];let model='NEO',reason='Universalus premium atspirties taškas pagal jūsų atsakymus.';if(priority==='Saugumas'){model=place==='Butui'?'STAR 60':'ALTUS';reason='Jūsų prioritetas yra saugumas, todėl rekomenduoju pradėti nuo šio modelio ir patikrinti konkrečią apsaugos klasę bei komplektaciją.'}else if(priority==='Šilumos izoliacija'){model='THERMO PREMIUM 75';reason='Šilumos izoliacija yra jūsų pagrindinis kriterijus, todėl rekomenduoju pradėti nuo šios serijos.'}else if(place==='Butui'){model='PREMIUM 60';reason='Butui parinkau premium apsaugos ir komforto kryptį; galutinė klasė priklauso nuo konkrečios komplektacijos.'}else if(place==='Komerciniam objektui'){model='ALTUS';reason='Komerciniam projektui pradėkite nuo individualiai projektuojamo premium sprendimo.'}return{model,reason}}
+function initVisual(){
+ const model=document.getElementById('visualModel'), color=document.getElementById('visualColor'), glass=document.getElementById('visualGlass'), handle=document.getElementById('visualHandle');
+ model.innerHTML=PRODUCTS.map((p,i)=>`<option value="${i}">${esc(p.name)}</option>`).join('');
+ color.innerHTML=COLORS.map(c=>`<option value="${esc(c[2])}" data-name="${esc(c[0])}" data-code="${esc(c[1])}">${esc(c[0])} · ${esc(c[1])}</option>`).join('');
+ [model,color,glass,handle].forEach(el=>el.addEventListener('change',updateVisual));
+ updateVisual();
+}
+function updateVisual(){
+ const mi=+document.getElementById('visualModel').value, opt=document.getElementById('visualColor').selectedOptions[0], p=PRODUCTS[mi];
+ const door=document.getElementById('door3d'), glass=document.getElementById('doorGlass'), handle=document.getElementById('doorHandle');
+ door.style.setProperty('--door-color',opt.value); door.querySelector('.door-face').style.background=opt.value;
+ glass.className='door-glass '+document.getElementById('visualGlass').value;
+ handle.className='door-handle-3d '+document.getElementById('visualHandle').value;
+ document.getElementById('threeDTitle').textContent=p.name;
+ document.getElementById('threeDDesc').textContent=p.subtitle+' · '+p.specs;
+ document.getElementById('threeDColor').textContent=opt.dataset.name+' · '+opt.dataset.code;
+}
+function set3DView(view,btn){
+ const door=document.getElementById('door3d'); door.classList.remove('view-front','view-angle','view-side'); door.classList.add('view-'+view);
+ document.querySelectorAll('.three-d-view-controls button').forEach(b=>b.classList.remove('active')); if(btn)btn.classList.add('active');
+}
+function configureVisualSelection(){const i=+document.getElementById('visualModel').value;state.config.model=i;const opt=document.getElementById('visualColor').selectedOptions[0];state.config.color={name:opt.dataset.name,code:opt.dataset.code};updateSummary();go('konfig');stepTo(2);toast(PRODUCTS[i].name+' pasirinktos.')}
+function setProjectType(v,b){state.projectType=v;document.querySelectorAll('#projectTypes .choice').forEach(x=>x.classList.remove('selected'));b.classList.add('selected')}
+function submitProject(){const name=document.getElementById('projectName').value.trim(),qty=document.getElementById('projectQty').value;const file=document.getElementById('projectFile').files[0];if(file&&file.size>10*1024*1024){toast('Failas per didelis. Maksimalus dydis – 10 MB.');return}if(!name||!qty){toast('Įveskite projekto pavadinimą ir durų kiekį.');return}const payload={type:'project',projectType:state.projectType,name,qty,stage:document.getElementById('projectStage').value,deadline:document.getElementById('projectDeadline').value,notes:document.getElementById('projectNotes').value,fileName:file?.name||''};sessionStorage.setItem('gerda_project',JSON.stringify(payload));document.getElementById('msg').value=`NT projektas: ${name} · ${qty} durys · ${state.projectType} · ${payload.stage}`;toast('Projekto užklausa paruošta. Pateikite kontaktus apačioje.');go('kontaktai')}
+async function sendLead(){const name=document.getElementById('name').value.trim(),phone=document.getElementById('phone').value.trim(),email=document.getElementById('email').value.trim();if(!name||!phone||!email){toast('Užpildykite vardą / įmonę, telefoną ir el. paštą.');return}if(!document.getElementById('consent')?.checked){toast('Patvirtinkite sutikimą dėl kontaktinių duomenų naudojimo.');return}const lead={name,phone,email,city:document.getElementById('city').value,msg:document.getElementById('msg').value,quote:state.quote,project:JSON.parse(sessionStorage.getItem('gerda_project')||'null'),createdAt:new Date().toISOString()};if(API_BASE){try{const r=await fetch(API_BASE.replace(/\/$/,'')+'/api/leads',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(lead)});if(r.ok){toast('Užklausa išsiųsta. Ačiū.');return}}catch(e){console.warn(e)}}const subject=encodeURIComponent('GERDA durų užklausa — '+name);const body=encodeURIComponent(['BELOKA BYGG UŽKLAUSA','',`Klientas: ${name}`,`Telefonas: ${phone}`,`El. paštas: ${email}`,`Miestas: ${lead.city||'—'}`,'',`Durys: ${state.quote.length}`,...state.quote.map((q,i)=>`${i+1}. ${q.model} | ${q.color} | ${q.code} | ${q.notes}`),'',`Žinutė: ${lead.msg||'—'}`].join('\n'));location.href=`mailto:Belokamb@gmail.com?subject=${subject}&body=${body}`}
+function downloadPDF(){if(!state.quote.length){toast('Pirmiausia pridėkite bent vienas duris.');return}const w=window.open('','_blank','width=900,height=800');if(!w){toast('Naršyklė užblokavo PDF langą.');return}const rows=state.quote.map((q,i)=>`<tr><td>${i+1}</td><td>${esc(q.model)}</td><td>${esc(q.color)} ${q.code?'· '+esc(q.code):''}</td><td>${esc(q.notes)}</td></tr>`).join('');w.document.write(`<meta charset="utf-8"><title>GERDA durų specifikacija</title><style>body{font-family:Arial;color:#111;padding:40px}h1{font-family:Georgia;font-weight:400}.gold{color:#9b7843}table{width:100%;border-collapse:collapse;margin-top:25px}th,td{border:1px solid #ddd;padding:10px;text-align:left;vertical-align:top;font-size:12px}.meta{margin:20px 0;color:#555}@media print{body{padding:20px}}</style>
+<style>
+.product-hub-grid{display:grid;grid-template-columns:1.2fr 1fr 1fr;gap:16px}
+.product-hub-card{display:block;background:#111;border:1px solid #292929;border-radius:8px;padding:30px;min-height:250px}
+.product-hub-card:hover{border-color:#555}
+.product-hub-card.featured{background:linear-gradient(145deg,#18140e,#111);border-color:#4a3d2b}
+.product-hub-kicker,.interior-label{font-size:10px;letter-spacing:.15em;color:var(--gold);font-weight:700;margin-bottom:18px}
+.product-hub-card h3{margin-bottom:10px}
+.product-hub-card p{font-size:13px}
+.product-hub-card span{display:inline-block;margin-top:18px;color:var(--gold);font-size:12px;font-weight:700}
+.brand-banner{display:flex;justify-content:space-between;align-items:center;gap:35px;background:linear-gradient(135deg,#18140e,#111);border:1px solid #3e3324;padding:38px}
+.brand-banner p{max-width:760px}
+.interior-grid{display:grid;grid-template-columns:1.25fr .75fr;gap:20px}
+.interior-main{background:linear-gradient(145deg,#141414,#101010)}
+.interior-features{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin:24px 0}
+.interior-features div{border:1px solid #292929;background:#0d0d0d;padding:14px}
+.interior-features b{display:block;color:var(--gold);font-size:18px}
+.interior-features span{display:block;color:#999;font-size:11px;margin-top:6px}
+.selection-list{margin-top:15px}
+.selection-list div{padding:16px 0;border-bottom:1px solid #262626}
+.selection-list strong{display:block;color:#ddd;font-size:13px}
+.selection-list span{display:block;color:#888;font-size:11px;margin-top:5px}
+@media(max-width:900px){.product-hub-grid,.interior-grid{grid-template-columns:1fr}.interior-features{grid-template-columns:repeat(2,1fr)}.brand-banner{display:block}.brand-banner .btnlink{margin-top:20px}}
+@media(max-width:620px){.product-hub-grid{grid-template-columns:1fr}.interior-features{grid-template-columns:1fr}.brand-banner{padding:25px}}
+</style>
+
+<div class="gold">BELOKA BYGG</div><h2>GERDA DURŲ SPECIFIKACIJA</h2><div class="meta">Sugeneruota: ${new Date().toLocaleString('lt-LT')}<br>Užklausoje: ${state.quote.length} durų</div><table><thead><tr><th>#</th><th>Modelis</th><th>Spalva</th><th>Komplektacija</th></tr></thead><tbody>${rows}</tbody></table><p style="margin-top:35px;color:#666">Galutinė techninė specifikacija ir suderinamumas turi būti patvirtinti GERDA specialistu.</p>
+<!-- Site architecture note:
+     BELOKA BYGG is the umbrella brand.
+     GERDA is a product brand/category.
+     Vidaus durys is a separate product category.
+     No exclusivity/official-distributor claim is made unless contractually confirmed.
+-->
+</body>
+</html>
